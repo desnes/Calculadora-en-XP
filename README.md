@@ -1,2 +1,2 @@
 # Password-manager-en-XP
-Implementación de una calculadora con Extreme Programming
+Implementación de un Gestor de Contraseñas con Extreme Programming

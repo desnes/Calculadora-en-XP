@@ -9,6 +9,8 @@ completedColumns:
 
 ## Backlog
 
+- [crear-historias-de-usuario](tasks/crear-historias-de-usuario.md)
+
 ## Todo
 
 ## In Progress

@@ -1,3 +1,10 @@
-## Nombre del grupo 
+## Grupo 1: BeCode
+
 ## Integrantes
-## Metafora 
+- David Averos
+- Ricardo Becerra
+- Nardy Cachipuendo
+- Gary Campaña
+- Kevin Cano
+- Rafael Castro
+  

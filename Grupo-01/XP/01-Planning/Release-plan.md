@@ -33,14 +33,15 @@
         </tr>
         <tr>
             <td>US001</td>
-            <td>U-S1---</td>
-            <td>0,5</td>
-            <td>2</td>
-            <td>16</td>
-            <td>0,5</td>
-            <td>2</td>
-            <td>16</td>
-            <td>X<td>
+            <td>Creación de contraseñas</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>8</td>
+            <td>X</td>
+            <td></td>
             <td></td>
             <td></td>
             <td>X</td>
@@ -49,14 +50,15 @@
         </tr>
         <tr>
             <td>US002</td>
-            <td>U-S2---</td>
+            <td>Visualización de Contraseñas</td>
+            <td>0</td>
             <td>1</td>
-            <td>5</td>
-            <td>30</td>
             <td>1</td>
-            <td>5</td>
-            <td>20</td>
-            <td>X<td>
+            <td>1</td>
+            <td>1</td>
+            <td>16</td>
+            <td></td>
+            <td>X</td>
             <td></td>
             <td></td>
             <td>X</td>
@@ -65,14 +67,15 @@
         </tr>
         <tr>
             <td>US003</td>
-            <td>U-S3---</td>
-            <td>0,5</td>
+            <td>Actualización de Contraseñas</td>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>0</td>
             <td>2</td>
             <td>16</td>
-            <td>0,5</td>
-            <td>2</td>
-            <td>16</td>
-            <td>X<td>
+            <td><td->
+            <td>X</td>
             <td></td>
             <td></td>
             <td>X</td>
@@ -81,14 +84,66 @@
         </tr>
         <tr>
             <td>US004</td>
-            <td>U-S4---</td>
+            <td>Borrado de Contraseñas</td>
+            <td>0</td>
+            <td>1</td>
             <td>2</td>
-            <td>10</td>
-            <td>30</td>
+            <td>0</td>
             <td>2</td>
-            <td>10</td>
-            <td>30</td>
-            <td>X<td>
+            <td>16</td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US005</td>
+            <td>Persistencia en Archivos</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>2</td>
+            <td>16</td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US006</td>
+            <td>Formato de almacenamiento</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>8</td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>US007</td>
+            <td>Seguridad</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>2</td>
+            <td>16</td>
+            <td></td>
+            <td>X</td>
             <td></td>
             <td></td>
             <td>X</td>

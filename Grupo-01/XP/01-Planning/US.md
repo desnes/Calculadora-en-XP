@@ -5,18 +5,126 @@
 | Campo | Descripción |
 |-------|-------------|
 | **ID de Historia** | US001 |
-| **Nombre de la Historia** |  |
-| **Descripción** | Como observador, quiero poder llevar al lobo al otro lado del río junto con Caperucita, asegurándome de que nunca queden solos, para evitar que el lobo se coma a Caperucita. |
-| **Rol del Usuario** | Observador |
-| **Objetivo** | Facilitar el cruce del lobo y Caperucita al otro lado del río de manera segura, evitando que el lobo se quede solo con Caperucita. |
-| **Iteración Asignada** | 1 |
+| **Nombre de la Historia** | Creacion de contraseñas |
+| **Descripción** | Como usuario, quiero poder agregar nuevas contraseñas asociadas a sitios específicos, permitiendo la generacion automática de contraseñas seguras o la creacion de contraseñas personalizadas |
+| **Rol del Usuario** | Usario |
+| **Objetivo** | Permitir a los usuarios generar y guardar nuevas contraseñas asociadas a sitios especificos |
+| **Iteración Asignada** |  |
 | **Prioridad en Negocio** | Alta |
-| **Riesgo en Desarrollo** | Alta |
-| **Puntos Estimados** | 6 |
-| **Puntos Reales** | 6 |
-| **Beneficio Comercial** | Garantizar ... |
-| **Requisitos Previos** | - . |
-| **Criterios de Aceptación** | - El observador puede llevar al lobo al otro lado del río. <br> - El observador puede llevar a Caperucita al otro lado del río. <br> - En ningún momento el lobo puede quedar solo con Caperucita en un lado del río. |
-| **Notas Técnicas** | - El observador debe controlar el cruce para garantizar la seguridad de Caperucita. <br> - Se debe validar que el lobo y Caperucita nunca queden solos en un lado del río. |
-| **Historial de Cambios** |  Fecha: 2023-12-20 <br> Autor: Nardy C. <br>  Versión: 1.0|
+| **Riesgo en Desarrollo** | Media |
+| **Puntos Estimados** |  |
+| **Puntos Reales** |  |
+| **Beneficio Comercial** | Facilitar a los usuarios la gestion segura de sus contraseñas |
+| **Requisitos Previos** | Ninguno |
+| **Criterios de Aceptación** | Los usuarios pueden agregar contraseñas asociadas a sitios. <br> - La aplicación ofrece la opción de generar contraseñas seguras automáticamente o permite al usuario crear una personalizada. |
+| **Notas Técnicas** | La generación automática de contraseñas debe seguir estándares de seguridad robustos. |
+| **Historial de Cambios** | Fecha: 2023-12-20 <br> Autor: Kevin Cano |
+
+| Campo | Descripción |
+|-------|-------------|
+| **ID de Historia** | US002 |
+| **Nombre de la Historia** | Visualización de Contraseñas |
+| **Descripción** | Como usuario, deseo ver una lista organizada de sitios y contraseñas almacenadas de manera clara y sencilla. |
+| **Rol del Usuario** | Usuario |
+| **Objetivo** | Facilitar a los usuarios la visualización de sus contraseñas almacenadas de forma legible. |
+| **Iteración Asignada** |  |
+| **Prioridad en Negocio** | Alta |
+| **Riesgo en Desarrollo** | Baja |
+| **Puntos Estimados** |  |
+| **Puntos Reales** |  |
+| **Beneficio Comercial** | Mejorar la usabilidad del gestor de contraseñas. |
+| **Requisitos Previos** |  Creación de contraseñas implementada |
+| **Criterios de Aceptación** |  Los usuarios pueden ver una lista organizada de sitios y contraseñas almacenadas. <br> - La visualización de contraseñas es clara y fácil de entender. |
+| **Notas Técnicas** | No perder la seguridad de las contraseñas en ningun momento |
+| **Historial de Cambios** | Fecha: 2023-12-20 <br> Autor: Kevin Cano |
+
+| Campo | Descripción |
+|-------|-------------|
+| **ID de Historia** | US003 |
+| **Nombre de la Historia** | Actualización de Contraseñas |
+| **Descripción** | Como usuario, quiero poder actualizar mis contraseñas existentes, ya sea generando nuevas contraseñas automáticamente o ingresando actualizaciones personalizadas. |
+| **Rol del Usuario** | Usuario |
+| **Objetivo** | Permitir a los usuarios modificar sus contraseñas existentes según sus necesidades. |
+| **Iteración Asignada** |  |
+| **Prioridad en Negocio** | Alta |
+| **Riesgo en Desarrollo** | Medio |
+| **Puntos Estimados** |  |
+| **Puntos Reales** |  |
+| **Beneficio Comercial** | Mejorar la seguridad y flexibilidad de las contraseñas almacenadas. |
+| **Requisitos Previos** | Creación de contraseñas implementada |
+| **Criterios de Aceptación** |  Los usuarios pueden actualizar sus contraseñas existentes. <br> - La actualización puede ser automática o personalizada. |
+| **Notas Técnicas** | La actualización debe ser sencilla y falcil de entender para el usuario |
+| **Historial de Cambios** | Fecha: 2023-12-20 <br> Autor: Kevin Cano |
+
+| Campo | Descripción |
+|-------|-------------|
+| **ID de Historia** | US004 |
+| **Nombre de la Historia** | Borrado de Contraseñas |
+| **Descripción** | Como usuario, necesito la opción de eliminar contraseñas cuando ya no sean necesarias, evitando eliminaciones accidentales. |
+| **Rol del Usuario** | Usuario |
+| **Objetivo** | Proporcionar a los usuarios una forma segura de eliminar contraseñas obsoletas o innecesarias. |
+| **Iteración Asignada** |  |
+| **Prioridad en Negocio** | Media |
+| **Riesgo en Desarrollo** | Baja |
+| **Puntos Estimados** |  |
+| **Puntos Reales** |  |
+| **Beneficio Comercial** | Mejorar la gestión y seguridad de las contraseñas almacenadas. |
+| **Requisitos Previos** | Mejorar la gestión y seguridad de las contraseñas almacenadas. |
+| **Criterios de Aceptación** | - Los usuarios pueden eliminar contraseñas de la lista. <br> - Se requiere confirmación antes de la eliminación para prevenir accidentes. |
+| **Notas Técnicas** | Ninguna |
+| **Historial de Cambios** | Fecha: 2023-12-20 <br> Autor: Kevin Cano |
+
+| Campo | Descripción |
+|-------|-------------|
+| **ID de Historia** | US005 |
+| **Nombre de la Historia** | Persistencia en Archivos |
+| **Descripción** | 	Como usuario, deseo que las contraseñas se almacenen de manera segura en archivos locales utilizando un sistema de cifrado para proteger la información sensible. |
+| **Rol del Usuario** | Usuario |
+| **Objetivo** | Asegurar la integridad y seguridad de las contraseñas almacenadas en la aplicación. |
+| **Iteración Asignada** |  |
+| **Prioridad en Negocio** | Alta |
+| **Riesgo en Desarrollo** | Medio |
+| **Puntos Estimados** |  |
+| **Puntos Reales** |  |
+| **Beneficio Comercial** | Incrementar la confianza de los usuarios en la seguridad de la aplicación. |
+| **Requisitos Previos** | Actualización de contraseñas implementada |
+| **Criterios de Aceptación** | - Las contraseñas se almacenan de manera segura en archivos locales. <br> - Se aplica un sistema de cifrado para proteger la información sensible. |
+| **Notas Técnicas** | La informacion de las contraseñas debe ser segura y que no se pierda o violen la seguridad. |
+| **Historial de Cambios** | Fecha: 2023-12-20 <br> Autor: Kevin Cano |
+
+| Campo | Descripción |
+|-------|-------------|
+| **ID de Historia** | US006 |
+| **Nombre de la Historia** | Formato de almacenamiento |
+| **Descripción** | Como usario, deseo que cada entrada en el gestor de contraseñas guarde en un formato claro y legible, facilitando la lectura y busqueda de contraseñas |
+| **Rol del Usuario** | Usario |
+| **Objetivo** | Optimizar la accesibilidad y búsqueda de contraseñas almacenadas |
+| **Iteración Asignada** |  |
+| **Prioridad en Negocio** | Media |
+| **Riesgo en Desarrollo** | Bajo |
+| **Puntos Estimados** |  |
+| **Puntos Reales** |  |
+| **Beneficio Comercial** | Mejorar la usabilidad y eficiencia del gestor de contraseñas |
+| **Requisitos Previos** | Borrador de contraseñas implementado |
+| **Criterios de Aceptación** | -Cada entrada se guarda con el formato "SITIO DE CONTRASEÑA: CONTRASEÑA" <br> -Facilita la lectura y busqueda de contraseñas almacenadas |
+| **Notas Técnicas** | La lectura debe ser legible y entendible para el usuario |
+| **Historial de Cambios** | Fecha: 2023-12-20 <br> Autor: Kevin Cano |
+
+| Campo | Descripción |
+|-------|-------------|
+| **ID de Historia** | US007 |
+| **Nombre de la Historia** | Seguridad |
+| **Descripción** | Como usuario, quiero que la aplicación este diseñada con medidas de segurdad sólidas para proteger mi información confidencial. |
+| **Rol del Usuario** | Usario |
+| **Objetivo** | Asegurar la proteccion de la información confidencial del usuario |
+| **Iteración Asignada** |  |
+| **Prioridad en Negocio** | Alta |
+| **Riesgo en Desarrollo** | Alto |
+| **Puntos Estimados** |  |
+| **Puntos Reales** |  |
+| **Beneficio Comercial** | Aumentar la confianza de los usuarios y la reputación de la aplicación |
+| **Requisitos Previos** | Persistencia en archivos implementada |
+| **Criterios de Aceptación** | -Implementación de medidas de cifrado de archivos y datos. <br> -Aplicación de buenas prácticas de seguridad en el manejo de informacion confidencial. |
+| **Notas Técnicas** | La aplicación debe ser demaciada segura para alzar la reputación de esta. |
+| **Historial de Cambios** | Fecha: 2023-12-20 <br> Autor: Kevin Cano |
 

@@ -74,41 +74,6 @@
 | **Notas Técnicas** | Ninguna |
 | **Historial de Cambios** | Fecha: 2024-01-06 <br> Autor: Kevin Cano |
 
-| Campo | Descripción |
-|-------|-------------|
-| **ID de Historia** | US005 |
-| **Nombre de la Historia** | Persistencia en Archivos |
-| **Descripción** | 	Como usuario, deseo que las contraseñas se almacenen de manera segura en archivos locales utilizando un sistema de cifrado para proteger la información sensible. |
-| **Rol del Usuario** | Usuario |
-| **Objetivo** | Asegurar la integridad y seguridad de las contraseñas almacenadas en la aplicación. |
-| **Iteración Asignada** |  |
-| **Prioridad en Negocio** | Alta |
-| **Riesgo en Desarrollo** | Medio |
-| **Puntos Estimados** |  |
-| **Puntos Reales** |  |
-| **Beneficio Comercial** | Incrementar la confianza de los usuarios en la seguridad de la aplicación. |
-| **Requisitos Previos** | Actualización de contraseñas implementada |
-| **Criterios de Aceptación** | - Las contraseñas se almacenan de manera segura en archivos locales. <br> - Se aplica un sistema de cifrado para proteger la información sensible. |
-| **Notas Técnicas** | La informacion de las contraseñas debe ser segura y que no se pierda o violen la seguridad. |
-| **Historial de Cambios** | Fecha: 2024-01-06 <br> Autor: Kevin Cano |
-
-| Campo | Descripción |
-|-------|-------------|
-| **ID de Historia** | US006 |
-| **Nombre de la Historia** | Formato de almacenamiento |
-| **Descripción** | Como usario, deseo que cada entrada en el gestor de contraseñas guarde en un formato claro y legible, facilitando la lectura y busqueda de contraseñas |
-| **Rol del Usuario** | Usario |
-| **Objetivo** | Optimizar la accesibilidad y búsqueda de contraseñas almacenadas |
-| **Iteración Asignada** |  |
-| **Prioridad en Negocio** | Media |
-| **Riesgo en Desarrollo** | Bajo |
-| **Puntos Estimados** |  |
-| **Puntos Reales** |  |
-| **Beneficio Comercial** | Mejorar la usabilidad y eficiencia del gestor de contraseñas |
-| **Requisitos Previos** | Borrador de contraseñas implementado |
-| **Criterios de Aceptación** | -Cada entrada se guarda con el formato "SITIO DE CONTRASEÑA: CONTRASEÑA" <br> -Facilita la lectura y busqueda de contraseñas almacenadas |
-| **Notas Técnicas** | La lectura debe ser legible y entendible para el usuario |
-| **Historial de Cambios** | Fecha: 2024-01-06 <br> Autor: Kevin Cano |
 
 | Campo | Descripción |
 |-------|-------------|
@@ -128,3 +93,20 @@
 | **Notas Técnicas** | La aplicación debe ser demaciada segura para alzar la reputación de esta. |
 | **Historial de Cambios** | Fecha: 2024-01-06 <br> Autor: Kevin Cano |
 
+| Campo | Descripción |
+|-------|-------------|
+| **ID de Historia** | US008 |
+| **Nombre de la Historia** | Persistencia y formato de almacenamiento |
+| **Descripción** | Como usuario, deseo que las contraseñas se almacenen de manera segura en archivos locales utilizando un sistema de cifrado para proteger la información sensible. Además, quiero que cada entrada en el gestor de contraseñas se guarde en un formato claro y legible, facilitando la lectura y búsqueda de contraseñas. |
+| **Rol del Usuario** | Usario |
+| **Objetivo** | Asegurar la integridad y seguridad de las contraseñas almacenadas y optimizar la accesibilidad y búsqueda de las mismas. |
+| **Iteración Asignada** |  |
+| **Prioridad en Negocio** | Alta |
+| **Riesgo en Desarrollo** | Alto |
+| **Puntos Estimados** |  |
+| **Puntos Reales** |  |
+| **Beneficio Comercial** | Incrementar la confianza de los usuarios en la seguridad de la aplicación y mejorar la usabilidad y eficiencia del gestor de contraseñas. |
+| **Requisitos Previos** | Actualización y Borrado de contraseñas implementados |
+| **Criterios de Aceptación** | - Las contraseñas se almacenan de manera segura en archivos locales con un sistema de cifrado. <br> - Cada entrada se guarda en el formato "SITIO DE CONTRASEÑA: CONTRASEÑA" para facilitar su lectura y búsqueda. |
+| **Notas Técnicas** | La información de las contraseñas debe ser segura, legible y fácil de entender para el usuario. |
+| **Historial de Cambios** | Fecha: 2024-01-07 <br> Autor: Kevin Cano |

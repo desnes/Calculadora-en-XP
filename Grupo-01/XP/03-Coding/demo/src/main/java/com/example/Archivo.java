@@ -7,9 +7,13 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class Archivo {
     String rutaArchivo;
+    List<Cuenta> lista = new ArrayList<>();
 
     public Archivo(String rutaDelArchivo) {
         this.rutaArchivo = rutaDelArchivo;
@@ -30,7 +34,6 @@ public class Archivo {
             lista = new ArrayList<>();
 
             while ((linea = bufferedReader.readLine()) != null) {
-                lista.add(linea);
                 System.out.println(linea);
             }
             bufferedReader.close();

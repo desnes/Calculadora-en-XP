@@ -14,6 +14,7 @@ public class Main {
             mostrarMenu();
             System.out.print(" Selecciona una opción: ");
             opcion = scanner.nextInt();
+            String automatica;
 
             switch (opcion) {
                 case 1:
@@ -23,6 +24,10 @@ public class Main {
                     cuenta.setSitioWeb(scanner.nextLine());
                     System.out.println("Ingresa la contraseña: ");
                     clave = scanner.nextLine();
+                    while (clave.length()<8) {
+                        System.out.println("Ingrese una contraseña mayor a 8 caracteres: ");
+                        clave = scanner.nextLine();
+                    }
                     cuenta.setContraseña(clave);
                     archivo.guardarArchivo(cuenta);
                     break;
@@ -44,10 +49,22 @@ public class Main {
                     System.out.println("Ingresa el sitio web: ");
                     sitioWeb = scanner.nextLine();
                     cuenta2.setSitioWeb(scanner.nextLine());
-                    System.out.println("Ingresa la contraseña: ");
-                    clave = scanner.nextLine();
-                    cuenta2.setContraseña(clave);
-                    archivo.actualizarArchivo(cuenta2.getSitioWeb(), clave);
+                    System.out.println("¿Desea añadir una contraseña automática? SI/NO: ");
+                    automatica = scanner.nextLine();
+                    if (automatica.equalsIgnoreCase("SI")) {
+                        clave = cuenta2.generarContraseña();
+                        cuenta2.setContraseña(clave);
+                        archivo.actualizarArchivo(cuenta2.getSitioWeb(), clave);
+                    }else{
+                        System.out.println("Ingresa la contraseña: ");
+                        clave = scanner.nextLine();
+                        while (clave.length()<8) {
+                            System.out.println("Ingrese una contraseña mayor a 8 caracteres: ");
+                            clave = scanner.nextLine();
+                        }
+                        cuenta2.setContraseña(clave);
+                        archivo.actualizarArchivo(cuenta2.getSitioWeb(), clave);
+                    }
                     break;
 
                 case 5:
@@ -72,10 +89,10 @@ public class Main {
         System.out.println("========== Gestor de contraseñas =========");
         System.out.println("1. Crear contraseña personalizada");
         System.out.println("2. Crear contraseña automática");
-        System.out.println("3. Mostrar todo");
-        System.out.println("4. Actualizar");
-        System.out.println("5. Eliminar");
-        System.out.println("6. Salir");
+        System.out.println("3. Mostrar todas las contraseñas");
+        System.out.println("4. Actualizar contraseña");
+        System.out.println("5. Eliminar contraseña");
+        System.out.println("5. Salir");
         System.out.println("==========================================");
     }
 

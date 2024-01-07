@@ -43,7 +43,6 @@ public class Archivo {
 
     public void guardarArchivo(Cuenta cuenta) {
         lista.add(cuenta);
-        System.out.println(lista);
         try {
             FileWriter fileWriter = new FileWriter(this.rutaArchivo, true);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);

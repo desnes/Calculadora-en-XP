@@ -1,17 +1,20 @@
+
 ### Caso de Prueba 3: Prueba mostrar todas las contraseñas
 
 **Entradas:**
-- ninguno
+- Ninguna
 
 **Pasos:**
-1. Crea un archivo temporal que almacene las contraseñas de prueba.
-2. Guarda algunas contraseñas en el archivo temporal.
-3. Lee el archivo para obtener la lista de todas las contraseñas.
-4. Imprime todas las contraseñas en la consola para que puedas verificar visualmente si la lista se ha creado correctamente.
+1. El test genera un archivo temporal (`contrasena_prueba.txt`) para almacenar las contraseñas de prueba.
+2. Se guardan algunas contraseñas de prueba en el archivo temporal.
+3. Se lee el archivo para obtener la lista de todas las contraseñas.
+4. Se imprime la lista de contraseñas en la consola para verificar visualmente si se ha creado correctamente.
 
 **Resultados Esperados:**
-- La unidad de prueba es exitosa corroborando así que los metodos si funcionan
-
+- La unidad de prueba es exitosa si:
+  - Se pueden crear contraseñas en el archivo temporal.
+  - La lista de contraseñas obtenida coincide con las contraseñas guardadas.
+  - Se imprime correctamente la lista de contraseñas en la consola.
 
 ### Caso de Prueba 4: Prueba actualizar contraseña
 
@@ -19,13 +22,13 @@
 - Sitio Web
 
 **Pasos:**
-1. Crear un archivo temporal que almacene datos temporales para su posterior actualizacion
-2. Guardar los sitios web y contraseñas en el archivo temporal.
-3. Crear nueva contraseña para un sitio en especifico.
-4. Elegir el sitio web a cambiar la contraseña
-5. verificar si se cambió la contraseña.
+1. El test genera un archivo temporal (`contrasena_prueba.txt`) para almacenar datos temporales para su posterior actualización.
+2. Se guardan sitios web y contraseñas en el archivo temporal.
+3. Se crea una nueva contraseña para un sitio web específico.
+4. Se elige el sitio web para cambiar la contraseña.
+5. Se verifica si la contraseña se ha cambiado correctamente.
 
 **Resultados Esperados:**
-- La contraseña del sitio web seleccionado se cambió correctamente.
-
-
+- La unidad de prueba es exitosa si:
+  - La contraseña del sitio web seleccionado se cambia correctamente en el archivo temporal.
+  - Si se actualiza la contraseña de manera correcta y se verifica el cambio.

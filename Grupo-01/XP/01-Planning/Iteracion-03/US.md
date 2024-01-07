@@ -67,7 +67,7 @@
 | **Prioridad en Negocio** | Media |
 | **Riesgo en Desarrollo** | Baja |
 | **Puntos Estimados** | 30 minutos |
-| **Puntos Reales** | 30 minutos |
+| **Puntos Reales** | |
 | **Beneficio Comercial** | Mejorar la gestión y seguridad de las contraseñas almacenadas. |
 | **Requisitos Previos** | Mejorar la gestión y seguridad de las contraseñas almacenadas. |
 | **Criterios de Aceptación** | - Los usuarios pueden eliminar contraseñas de la lista. <br> - Se requiere confirmación antes de la eliminación para prevenir accidentes. |

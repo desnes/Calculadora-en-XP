@@ -40,22 +40,33 @@ public class Main {
                     break;
 
                 case 4:
+                    Cuenta cuenta2 = new Cuenta();
+                    System.out.println("Ingresa el sitio web: ");
+                    sitioWeb = scanner.nextLine();
+                    cuenta2.setSitioWeb(scanner.nextLine());
+                    System.out.println("Ingresa la contraseña: ");
+                    clave = scanner.nextLine();
+                    cuenta2.setContraseña(clave);
+                    archivo.actualizarArchivo(cuenta2.getSitioWeb(), clave);
+                    break;
+                case 5:
                     System.out.println("Finalizado");
                     break;
                 default:
                     System.out.println("Opción no válida. Por favor, elige una opción válida.");
             }
 
-        } while (opcion != 4);
+        } while (opcion != 5);
             scanner.close();
     }
 
     public static void mostrarMenu() {
         System.out.println("===== Gestor de contraseñas =====");
-        System.out.println("1. Personalizada");
-        System.out.println("2. Automática");
+        System.out.println("1. Crear contraseña personalizada");
+        System.out.println("2. Crear contraseña automática");
         System.out.println("3. Mostrar todo");
-        System.out.println("4. Salir");
+        System.out.println("4. Actualizar");
+        System.out.println("5. Salir");
         System.out.println("=============================");
     }
 

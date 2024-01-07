@@ -92,20 +92,3 @@
 | **Notas Técnicas** | La información de las contraseñas debe ser segura, legible y fácil de entender para el usuario. |
 | **Historial de Cambios** | Fecha: 2024-01-07 <br> Autor: Kevin Cano |
 
-| Campo | Descripción |
-|-------|-------------|
-| **ID de Historia** | US007 |
-| **Nombre de la Historia** | Seguridad |
-| **Descripción** | Como usuario, quiero que la aplicación este diseñada con medidas de segurdad sólidas para proteger mi información confidencial. |
-| **Rol del Usuario** | Usario |
-| **Objetivo** | Asegurar la proteccion de la información confidencial del usuario |
-| **Iteración Asignada** |  |
-| **Prioridad en Negocio** | Alta |
-| **Riesgo en Desarrollo** | Alto |
-| **Puntos Estimados** |  |
-| **Puntos Reales** |  |
-| **Beneficio Comercial** | Aumentar la confianza de los usuarios y la reputación de la aplicación |
-| **Requisitos Previos** | Persistencia en archivos implementada |
-| **Criterios de Aceptación** | -Implementación de medidas de cifrado de archivos y datos. <br> -Aplicación de buenas prácticas de seguridad en el manejo de informacion confidencial. |
-| **Notas Técnicas** | La aplicación debe ser demaciada segura para alzar la reputación de esta. |
-| **Historial de Cambios** | Fecha: 2024-01-06 <br> Autor: Kevin Cano |

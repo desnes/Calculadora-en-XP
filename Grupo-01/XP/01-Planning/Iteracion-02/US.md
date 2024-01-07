@@ -74,6 +74,23 @@
 | **Notas Técnicas** | Ninguna |
 | **Historial de Cambios** | Fecha: 2024-01-06 <br> Autor: Kevin Cano |
 
+| Campo | Descripción |
+|-------|-------------|
+| **ID de Historia** | US005/US006 |
+| **Nombre de la Historia** | Persistencia y formato de almacenamiento |
+| **Descripción** | Como usuario, deseo que las contraseñas se almacenen de manera segura en archivos locales utilizando un sistema de cifrado para proteger la información sensible. Además, quiero que cada entrada en el gestor de contraseñas se guarde en un formato claro y legible, facilitando la lectura y búsqueda de contraseñas. |
+| **Rol del Usuario** | Usario |
+| **Objetivo** | Asegurar la integridad y seguridad de las contraseñas almacenadas y optimizar la accesibilidad y búsqueda de las mismas. |
+| **Iteración Asignada** |  |
+| **Prioridad en Negocio** | Alta |
+| **Riesgo en Desarrollo** | Alto |
+| **Puntos Estimados** |  |
+| **Puntos Reales** |  |
+| **Beneficio Comercial** | Incrementar la confianza de los usuarios en la seguridad de la aplicación y mejorar la usabilidad y eficiencia del gestor de contraseñas. |
+| **Requisitos Previos** | Actualización y Borrado de contraseñas implementados |
+| **Criterios de Aceptación** | - Las contraseñas se almacenan de manera segura en archivos locales con un sistema de cifrado. <br> - Cada entrada se guarda en el formato "SITIO DE CONTRASEÑA: CONTRASEÑA" para facilitar su lectura y búsqueda. |
+| **Notas Técnicas** | La información de las contraseñas debe ser segura, legible y fácil de entender para el usuario. |
+| **Historial de Cambios** | Fecha: 2024-01-07 <br> Autor: Kevin Cano |
 
 | Campo | Descripción |
 |-------|-------------|
@@ -92,21 +109,3 @@
 | **Criterios de Aceptación** | -Implementación de medidas de cifrado de archivos y datos. <br> -Aplicación de buenas prácticas de seguridad en el manejo de informacion confidencial. |
 | **Notas Técnicas** | La aplicación debe ser demaciada segura para alzar la reputación de esta. |
 | **Historial de Cambios** | Fecha: 2024-01-06 <br> Autor: Kevin Cano |
-
-| Campo | Descripción |
-|-------|-------------|
-| **ID de Historia** | US008 |
-| **Nombre de la Historia** | Persistencia y formato de almacenamiento |
-| **Descripción** | Como usuario, deseo que las contraseñas se almacenen de manera segura en archivos locales utilizando un sistema de cifrado para proteger la información sensible. Además, quiero que cada entrada en el gestor de contraseñas se guarde en un formato claro y legible, facilitando la lectura y búsqueda de contraseñas. |
-| **Rol del Usuario** | Usario |
-| **Objetivo** | Asegurar la integridad y seguridad de las contraseñas almacenadas y optimizar la accesibilidad y búsqueda de las mismas. |
-| **Iteración Asignada** |  |
-| **Prioridad en Negocio** | Alta |
-| **Riesgo en Desarrollo** | Alto |
-| **Puntos Estimados** |  |
-| **Puntos Reales** |  |
-| **Beneficio Comercial** | Incrementar la confianza de los usuarios en la seguridad de la aplicación y mejorar la usabilidad y eficiencia del gestor de contraseñas. |
-| **Requisitos Previos** | Actualización y Borrado de contraseñas implementados |
-| **Criterios de Aceptación** | - Las contraseñas se almacenan de manera segura en archivos locales con un sistema de cifrado. <br> - Cada entrada se guarda en el formato "SITIO DE CONTRASEÑA: CONTRASEÑA" para facilitar su lectura y búsqueda. |
-| **Notas Técnicas** | La información de las contraseñas debe ser segura, legible y fácil de entender para el usuario. |
-| **Historial de Cambios** | Fecha: 2024-01-07 <br> Autor: Kevin Cano |

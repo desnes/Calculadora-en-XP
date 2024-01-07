@@ -2,7 +2,6 @@
 ### Caso de Prueba 1: Crear una nueva contraseña manualmente
 **Entradas:**
 - Sitio web
-- Nombre de usuario
 - Contraseña
 
 **Pasos:**
@@ -18,7 +17,6 @@
 
 **Entradas:**
 - Sitio web
-- Nombre de usuario
 - Contraseña
 
 **Pasos:**

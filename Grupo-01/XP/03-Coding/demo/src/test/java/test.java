@@ -5,13 +5,19 @@ import com.example.Cuenta;
 
 public class test {
     @Test
-    public void testCreatePassword(){
+    public void testCreatePasswordAuto(){
 
         Cuenta cuenta1 = new Cuenta("Facebook", "1234");
         String passwordInicial = cuenta1.getContraseña();
         String passwordGenerada = cuenta1.generarContraseña();
-        assertEquals(passwordInicial, passwordGenerada);
+        assertNotEquals(passwordInicial, passwordGenerada);
     }
 
-    
+    @Test
+    public void testCreatePasswordManually() {
+        Cuenta cuenta1 = new Cuenta("Facebook", "contrasena123");
+        String passwordInicial = cuenta1.getContraseña();
+        assertEquals("contrasena123", passwordInicial);
+    }
+
 }

@@ -6,6 +6,10 @@ public class Cuenta {
     private String sitioWeb;
     private String contraseña;
 
+    public Cuenta() {
+        
+    }
+
     public Cuenta(String sitioWeb, String contraseña) {
         this.sitioWeb = sitioWeb;
         this.contraseña = contraseña;

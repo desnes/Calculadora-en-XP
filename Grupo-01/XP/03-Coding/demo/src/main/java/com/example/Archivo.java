@@ -39,16 +39,11 @@ public class Archivo {
             FileWriter fileWriter = new FileWriter(this.rutaArchivo, true);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             PrintWriter printWriter = new PrintWriter(bufferedWriter);
-
-            // Agregar nuevas líneas al archivo
             printWriter.println(cuenta.getSitioWeb().toUpperCase() + ": " + cuenta.getContraseña());
-
-            // Cerrar los flujos de escritura
             printWriter.close();
             bufferedWriter.close();
             fileWriter.close();
-
-            System.out.println("Se han agregado nuevas líneas al archivo.");
+            System.out.println("Contraseña guardada");
 
         } catch (IOException e) {
             e.printStackTrace();

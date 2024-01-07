@@ -49,7 +49,7 @@
 | **Prioridad en Negocio** | Alta |
 | **Riesgo en Desarrollo** | Medio |
 | **Puntos Estimados** | 1 hora |
-| **Puntos Reales** |  |
+| **Puntos Reales** | 3 horas |
 | **Beneficio Comercial** | Mejorar la seguridad y flexibilidad de las contraseñas almacenadas. |
 | **Requisitos Previos** | Creación de contraseñas implementada |
 | **Criterios de Aceptación** |  Los usuarios pueden actualizar sus contraseñas existentes. <br> - La actualización puede ser automática o personalizada. |
@@ -66,8 +66,8 @@
 | **Iteración Asignada** | 3 |
 | **Prioridad en Negocio** | Media |
 | **Riesgo en Desarrollo** | Baja |
-| **Puntos Estimados** |  |
-| **Puntos Reales** |  |
+| **Puntos Estimados** | 30 minutos |
+| **Puntos Reales** | |
 | **Beneficio Comercial** | Mejorar la gestión y seguridad de las contraseñas almacenadas. |
 | **Requisitos Previos** | Mejorar la gestión y seguridad de las contraseñas almacenadas. |
 | **Criterios de Aceptación** | - Los usuarios pueden eliminar contraseñas de la lista. <br> - Se requiere confirmación antes de la eliminación para prevenir accidentes. |
@@ -76,10 +76,10 @@
 
 | Campo | Descripción |
 |-------|-------------|
-| **ID de Historia** | US005/US006 |
+| **ID de Historia** | US005 |
 | **Nombre de la Historia** | Persistencia y formato de almacenamiento |
 | **Descripción** | Como usuario, deseo que las contraseñas se almacenen de manera segura en archivos locales utilizando un sistema de cifrado para proteger la información sensible. Además, quiero que cada entrada en el gestor de contraseñas se guarde en un formato claro y legible, facilitando la lectura y búsqueda de contraseñas. |
-| **Rol del Usuario** | Usario |
+| **Rol del Usuario** | Usuario |
 | **Objetivo** | Asegurar la integridad y seguridad de las contraseñas almacenadas y optimizar la accesibilidad y búsqueda de las mismas. |
 | **Iteración Asignada** | 1 |
 | **Prioridad en Negocio** | Alta |
@@ -91,21 +91,3 @@
 | **Criterios de Aceptación** | - Las contraseñas se almacenan de manera segura en archivos locales con un sistema de cifrado. <br> - Cada entrada se guarda en el formato "SITIO DE CONTRASEÑA: CONTRASEÑA" para facilitar su lectura y búsqueda. |
 | **Notas Técnicas** | La información de las contraseñas debe ser segura, legible y fácil de entender para el usuario. |
 | **Historial de Cambios** | Fecha: 2024-01-07 <br> Autor: Kevin Cano |
-
-| Campo | Descripción |
-|-------|-------------|
-| **ID de Historia** | US007 |
-| **Nombre de la Historia** | Seguridad |
-| **Descripción** | Como usuario, quiero que la aplicación este diseñada con medidas de segurdad sólidas para proteger mi información confidencial. |
-| **Rol del Usuario** | Usario |
-| **Objetivo** | Asegurar la proteccion de la información confidencial del usuario |
-| **Iteración Asignada** | 3 |
-| **Prioridad en Negocio** | Alta |
-| **Riesgo en Desarrollo** | Alto |
-| **Puntos Estimados** |  |
-| **Puntos Reales** |  |
-| **Beneficio Comercial** | Aumentar la confianza de los usuarios y la reputación de la aplicación |
-| **Requisitos Previos** | Persistencia en archivos implementada |
-| **Criterios de Aceptación** | -Implementación de medidas de cifrado de archivos y datos. <br> -Aplicación de buenas prácticas de seguridad en el manejo de informacion confidencial. <br> -Cuando acceda a la carpeta de contraseñas, los datos deben estar encriptados para garantizar la seguridad. |
-| **Notas Técnicas** | La aplicación debe ser demaciada segura para alzar la reputación de esta. |
-| **Historial de Cambios** | Fecha: 2024-01-06 <br> Autor: Kevin Cano |

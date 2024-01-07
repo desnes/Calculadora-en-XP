@@ -32,3 +32,7 @@
 - La unidad de prueba es exitosa si:
   - La contraseña del sitio web seleccionado se cambia correctamente en el archivo temporal.
   - Si se actualiza la contraseña de manera correcta y se verifica el cambio.
+ 
+# Cliente
+
+Como cliente, considero que las pruebas realizadas para esta iteración son adecuadas y apruebo su ejecución.

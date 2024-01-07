@@ -64,4 +64,9 @@ public class Cuenta {
         // Mezclar todos los caracteres y devolver la clave
         return ("" + mayuscula + minuscula + numero + simbolo + sb.toString());
     }
+
+    
+
+
+
 }

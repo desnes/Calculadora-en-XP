@@ -1,4 +1,4 @@
-# Pruebas
+# Pruebas Iteracion 1
 ### Caso de Prueba 1: Crear una nueva contraseña manualmente
 **Entradas:**
 - Sitio web
@@ -17,7 +17,6 @@
 
 **Entradas:**
 - Sitio web
-- Contraseña
 
 **Pasos:**
 1. Navegar a la pantalla de creación de contraseña.
@@ -26,3 +25,8 @@
 
 **Resultados Esperados:**
 - La contraseña se genera automáticamente y se guarda correctamente.
+
+
+# Cliente
+
+Como cliente, considero que las pruebas realizadas para esta iteración son adecuadas y apruebo su ejecución.

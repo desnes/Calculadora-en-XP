@@ -7,12 +7,19 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Archivo {
     String rutaArchivo;
+    List<Cuenta> lista = new ArrayList<>();
 
     public Archivo(String rutaDelArchivo) {
         this.rutaArchivo = rutaDelArchivo;
+    }
+
+    public List<Cuenta> getLista() {
+        return lista;
     }
 
     public void leerArchivo() {
@@ -26,15 +33,15 @@ public class Archivo {
             while ((linea = bufferedReader.readLine()) != null) {
                 System.out.println(linea);
             }
-
             bufferedReader.close();
-
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     public void guardarArchivo(Cuenta cuenta) {
+        lista.add(cuenta);
+        System.out.println(lista);
         try {
             FileWriter fileWriter = new FileWriter(this.rutaArchivo, true);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);

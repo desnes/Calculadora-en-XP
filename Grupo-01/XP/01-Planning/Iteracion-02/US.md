@@ -16,7 +16,7 @@
 | **Puntos Reales** |  |
 | **Beneficio Comercial** | Facilitar a los usuarios la gestion segura de sus contraseñas |
 | **Requisitos Previos** | Ninguno |
-| **Criterios de Aceptación** | Los usuarios pueden agregar contraseñas asociadas a sitios. <br> - La aplicación ofrece la opción de generar contraseñas seguras automáticamente o permite al usuario crear una personalizada. |
+| **Criterios de Aceptación** | Los usuarios pueden agregar contraseñas asociadas a sitios. <br> - La aplicación ofrece la opción de generar contraseñas seguras automáticamente o permite al usuario crear una personalizada. <br> -Las contraseñas deben tener un mínimo de 8 caracteres de longitud. |
 | **Notas Técnicas** | La generación automática de contraseñas debe seguir estándares de seguridad robustos. |
 | **Historial de Cambios** | Fecha: 2024-01-06 <br> Autor: Kevin Cano |
 

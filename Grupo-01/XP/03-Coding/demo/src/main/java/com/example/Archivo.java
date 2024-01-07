@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class Archivo {
     String rutaArchivo;
@@ -61,55 +60,49 @@ public class Archivo {
     }
 
     public void actualizarArchivo(String sitioWeb, String nuevaContraseña) {
-            boolean encontrado = false;
-    
-            try {
-                File archivo = new File(rutaArchivo);
-                File archivoTemporal = new File(rutaArchivo + ".tmp");
-    
-                FileReader fileReader = new FileReader(archivo);
-                BufferedReader bufferedReader = new BufferedReader(fileReader);
-    
-                FileWriter fileWriter = new FileWriter(archivoTemporal, true);
-                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-                PrintWriter printWriter = new PrintWriter(bufferedWriter);
-    
-                String linea;
-                while ((linea = bufferedReader.readLine()) != null) {
-                    String[] partes = linea.split(": ");
-                    if (partes.length == 2 && partes[0].equalsIgnoreCase(sitioWeb)) {
-                        // Si se encuentra el sitio web, actualizar la contraseña
-                        encontrado = true;
-                        printWriter.println(sitioWeb.toUpperCase() + ": " + nuevaContraseña);
-                    } else {
-                        printWriter.println(linea);
-                    }
-                }
-    
-                printWriter.close();
-                bufferedWriter.close();
-                fileWriter.close();
-                bufferedReader.close();
-                fileReader.close();
-    
-                if (!encontrado) {
-                    System.out.println("¡Sitio web no encontrado!");
+        boolean encontrado = false;
+
+        try {
+            File archivo = new File(rutaArchivo);
+            File archivoTemporal = new File(rutaArchivo + ".tmp");
+
+            FileReader fileReader = new FileReader(archivo);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+
+            FileWriter fileWriter = new FileWriter(archivoTemporal, true);
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            PrintWriter printWriter = new PrintWriter(bufferedWriter);
+
+            String linea;
+            while ((linea = bufferedReader.readLine()) != null) {
+                String[] partes = linea.split(": ");
+                if (partes.length == 2 && partes[0].equalsIgnoreCase(sitioWeb)) {
+                    // Si se encuentra el sitio web, actualizar la contraseña
+                    encontrado = true;
+                    printWriter.println(sitioWeb.toUpperCase() + ": " + nuevaContraseña);
                 } else {
-                    // Renombrar el archivo temporal al original
-                    archivo.delete();
-                    archivoTemporal.renameTo(archivo);
-    
-                    System.out.println("Contraseña actualizada para el sitio web: " + sitioWeb);
+                    printWriter.println(linea);
                 }
-    
-            } catch (IOException e) {
-                e.printStackTrace();
             }
+
+            printWriter.close();
+            bufferedWriter.close();
+            fileWriter.close();
+            bufferedReader.close();
+            fileReader.close();
+
+            if (!encontrado) {
+                System.out.println("¡Sitio web no encontrado!");
+            } else {
+                // Renombrar el archivo temporal al original
+                archivo.delete();
+                archivoTemporal.renameTo(archivo);
+
+                System.out.println("Contraseña actualizada para el sitio web: " + sitioWeb);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+    }
 }
-    
-
-
-
-
-

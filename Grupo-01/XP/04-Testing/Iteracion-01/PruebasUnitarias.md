@@ -17,7 +17,6 @@
 
 **Entradas:**
 - Sitio web
-- Contraseña
 
 **Pasos:**
 1. Navegar a la pantalla de creación de contraseña.

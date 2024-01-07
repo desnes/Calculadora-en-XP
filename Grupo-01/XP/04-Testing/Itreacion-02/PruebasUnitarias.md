@@ -4,26 +4,28 @@
 - ninguno
 
 **Pasos:**
-1. Crea un gestor de contraseñas con un archivo de prueba.
-2. Guarda algunas contraseñas en el archivo.
+1. Crea un archivo temporal que almacene las contraseñas de prueba.
+2. Guarda algunas contraseñas en el archivo temporal.
 3. Lee el archivo para obtener la lista de todas las contraseñas.
 4. Imprime todas las contraseñas en la consola para que puedas verificar visualmente si la lista se ha creado correctamente.
 
 **Resultados Esperados:**
 - La unidad de prueba es exitosa corroborando así que los metodos si funcionan
 
-### Caso de Prueba 4: Prueba mostrar todas las contraseñas
+
+### Caso de Prueba 4: Prueba actualizar contraseña
 
 **Entradas:**
-- ninguno
+- Sitio Web
 
 **Pasos:**
-1. as
-2. sas
-3. as
-4. asa
+1. Crear un archivo temporal que almacene datos temporales para su posterior actualizacion
+2. Guardar los sitios web y contraseñas en el archivo temporal.
+3. Crear nueva contraseña para un sitio en especifico.
+4. Elegir el sitio web a cambiar la contraseña
+5. verificar si se cambió la contraseña.
 
 **Resultados Esperados:**
-- La unidad de prueba es exitosa corroborando así que los metodos si funcionan
+- La contraseña del sitio web seleccionado se cambió correctamente.
 
 

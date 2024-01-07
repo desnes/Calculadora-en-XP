@@ -104,5 +104,47 @@ public class Archivo {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        
     }
-}
+
+        public void eliminarCuenta(String sitioWeb) {
+            try {
+                File archivo = new File(rutaArchivo);
+                File archivoTemporal = new File(rutaArchivo + ".tmp");
+                FileReader fileReader = new FileReader(archivo);
+                BufferedReader bufferedReader = new BufferedReader(fileReader);
+                FileWriter fileWriter = new FileWriter(archivoTemporal, true);
+                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+                PrintWriter printWriter = new PrintWriter(bufferedWriter);
+    
+                boolean eliminado = false;
+                String linea;
+                while ((linea = bufferedReader.readLine()) != null) {
+                    String[] partes = linea.split(": ");
+                    if (partes.length == 2 && partes[0].equalsIgnoreCase(sitioWeb)) {
+                        eliminado = true;
+                        System.out.println("Cuenta eliminada para el sitio web: " + sitioWeb);
+                    } else {
+                        printWriter.println(linea);
+                    }
+                }
+    
+                if (!eliminado) {
+                    System.out.println("No se encontró la cuenta para el sitio web: " + sitioWeb);
+                }
+    
+                printWriter.close();
+                bufferedWriter.close();
+                fileWriter.close();
+                bufferedReader.close();
+                fileReader.close();
+    
+                // Renombrar el archivo temporal al original
+                archivo.delete();
+                archivoTemporal.renameTo(archivo);
+    
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }

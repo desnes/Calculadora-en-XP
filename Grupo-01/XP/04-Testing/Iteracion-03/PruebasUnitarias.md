@@ -14,3 +14,7 @@
 - La unidad de prueba es exitosa si:
   - La contraseña del sitio web seleccionado se elimina correctamente en el archivo temporal.
   - Si se elimina la contraseña de manera correcta y se verifica la eliminación.
+ 
+# Cliente
+
+Como cliente, considero que las pruebas realizadas para esta iteración son adecuadas y apruebo su ejecución.

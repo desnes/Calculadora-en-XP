@@ -102,8 +102,22 @@ public class test {
         archivoPrueba.delete();
     }
 
+    // Método para verificar que la contraseña se haya actualizado correctamente
+    private boolean contraseñaActualizadaCorrectamente(String rutaArchivo, String sitioWeb, String nuevaContraseña)
+            throws IOException {
+        try (BufferedReader br = new BufferedReader(new FileReader(rutaArchivo))) {
+            String linea;
+            while ((linea = br.readLine()) != null) {
+                String[] partes = linea.split(": ");
+                if (partes.length == 2 && partes[0].equalsIgnoreCase(sitioWeb)) {
+                    return partes[1].equals(nuevaContraseña);
+                }
+            }
+        }
+        return false;
+    }
     
-    //Iteracion 3
+     //Iteracion 3
     @Test
     public void testDeletePassword() throws IOException{
         // Ruta temporal para el archivo de prueba
@@ -147,20 +161,4 @@ public class test {
         }
         return false;
     }
-    // Método para verificar que la contraseña se haya actualizado correctamente
-    private boolean contraseñaActualizadaCorrectamente(String rutaArchivo, String sitioWeb, String nuevaContraseña)
-            throws IOException {
-        try (BufferedReader br = new BufferedReader(new FileReader(rutaArchivo))) {
-            String linea;
-            while ((linea = br.readLine()) != null) {
-                String[] partes = linea.split(": ");
-                if (partes.length == 2 && partes[0].equalsIgnoreCase(sitioWeb)) {
-                    return partes[1].equals(nuevaContraseña);
-                }
-            }
-        }
-        return false;
-    }
-
-
 }

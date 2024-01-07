@@ -49,7 +49,7 @@
 | **Prioridad en Negocio** | Alta |
 | **Riesgo en Desarrollo** | Medio |
 | **Puntos Estimados** | 1 hora |
-| **Puntos Reales** |  |
+| **Puntos Reales** | 3 horas |
 | **Beneficio Comercial** | Mejorar la seguridad y flexibilidad de las contraseñas almacenadas. |
 | **Requisitos Previos** | Creación de contraseñas implementada |
 | **Criterios de Aceptación** |  Los usuarios pueden actualizar sus contraseñas existentes. <br> - La actualización puede ser automática o personalizada. |

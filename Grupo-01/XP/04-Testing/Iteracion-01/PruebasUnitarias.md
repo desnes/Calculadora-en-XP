@@ -26,3 +26,8 @@
 
 **Resultados Esperados:**
 - La contraseña se genera automáticamente y se guarda correctamente.
+
+
+# Cliente
+
+Como cliente, considero que las pruebas realizadas para esta iteración son adecuadas y apruebo su ejecución.

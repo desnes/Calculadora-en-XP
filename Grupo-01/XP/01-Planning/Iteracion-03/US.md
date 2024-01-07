@@ -79,7 +79,7 @@
 | **ID de Historia** | US005 |
 | **Nombre de la Historia** | Persistencia y formato de almacenamiento |
 | **Descripción** | Como usuario, deseo que las contraseñas se almacenen de manera segura en archivos locales utilizando un sistema de cifrado para proteger la información sensible. Además, quiero que cada entrada en el gestor de contraseñas se guarde en un formato claro y legible, facilitando la lectura y búsqueda de contraseñas. |
-| **Rol del Usuario** | Usario |
+| **Rol del Usuario** | Usuario |
 | **Objetivo** | Asegurar la integridad y seguridad de las contraseñas almacenadas y optimizar la accesibilidad y búsqueda de las mismas. |
 | **Iteración Asignada** | 1 |
 | **Prioridad en Negocio** | Alta |

@@ -18,10 +18,12 @@ public class Archivo {
         this.rutaArchivo = rutaDelArchivo;
     }
 
+    //Retornar la lista de cuentas almacenadas en el archivo
     public List<Cuenta> getLista() {
         return lista;
     }
 
+    // Leer y muestrar por consola el contenido del archivo
     public void leerArchivo() {
         try {
             File archivo = new File(rutaArchivo);
@@ -41,6 +43,7 @@ public class Archivo {
         }
     }
 
+    //Guardar una cuenta en el archivo
     public void guardarArchivo(Cuenta cuenta) {
         lista.add(cuenta);
         System.out.println(lista);
@@ -59,6 +62,7 @@ public class Archivo {
         }
     }
 
+    // Actualizar la contraseña de una cuenta existente en el archivo
     public void actualizarArchivo(String sitioWeb, String nuevaContraseña) {
         boolean encontrado = false;
 
@@ -107,6 +111,8 @@ public class Archivo {
         
     }
 
+        
+        //Eliminar una cuenta del archivo
         public void eliminarCuenta(String sitioWeb) {
             try {
                 File archivo = new File(rutaArchivo);

@@ -6,35 +6,43 @@ public class Cuenta {
     private String sitioWeb;
     private String contraseña;
 
+    //Constructor Vacio
     public Cuenta() {
         
     }
-
+    
+    //Constructor con parámetros tipo String
     public Cuenta(String sitioWeb, String contraseña) {
         this.sitioWeb = sitioWeb;
         this.contraseña = contraseña;
     }
 
+    //Obtener el sitio web
     public String getSitioWeb() {
         return sitioWeb;
     }
-
+    
+    //Retornar el sitio web
     public void setSitioWeb(String sitioWeb) {
         this.sitioWeb = sitioWeb;
     }
-
+    
+    ////Obtener la contraseña
     public String getContraseña() {
         return contraseña;
     }
-
+    
+    //Retornar la contraseña
     public void setContraseña(String contraseña) {
         this.contraseña = contraseña;
     }
-
+    
+    //Retornar verdadero si la contraseña se genera automáticamente
     public boolean esGenerada() {
         return true;
     }
-
+    
+    //Método que genera una contraseña de forma aleatoria
     public String generarContraseña() {
         int longitud = 10;
         // Caracteres permitidos

@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
+        //Instanciación de objetos
         Archivo archivo = new Archivo("Grupo-01/XP/03-Coding/demo/src/main/java/com/example/contraseña.txt");
         Scanner scanner = new Scanner(System.in);
         String sitioWeb, clave;
@@ -15,6 +17,8 @@ public class Main {
             System.out.print(" Selecciona una opción: ");
             opcion = scanner.nextInt();
 
+
+            //Selección de opciones según el menú
             switch (opcion) {
                 case 1:
                     Cuenta cuenta = new Cuenta();
@@ -68,6 +72,8 @@ public class Main {
             scanner.close();
     }
 
+
+    
     public static void mostrarMenu() {
         System.out.println("========== Gestor de contraseñas =========");
         System.out.println("1. Crear contraseña personalizada");

@@ -1,116 +1,55 @@
-# Workflow de eXtreme Programming (XP)
+# Workflow del Proyecto - BeCode Gestor de Contraseñas
 
-## Fase 1: Planificación
+Este documento describe el flujo de trabajo del proyecto BeCode, enfocado en el desarrollo de un Gestor de Contraseñas mediante la metodología XP (Extreme Programming). El proyecto involucra a diversos roles, cada uno desempeñando un papel esencial en las diferentes fases del desarrollo.
 
-### Roles:
-- Cliente
-- Programador
-- Tester
+## Fases del Proyecto
 
-### Procesos:
-1. **Identificación de Requisitos:**
-   - El Cliente define los requisitos del proyecto.
-   - El Programador y el Tester participan en sesiones de preguntas y respuestas para clarificar los requisitos.
+### 1. **Planning (Planificación):**
+   - **Responsable:** Tracker (Nardy Cachipuendo)
+   - **Artefactos:**
+     - **Historias de Usuario:** Proporcionadas por el Cliente (Kevin CANO), describiendo las funcionalidades deseadas del sistema.
+     - **Plan de Entregas:** Creado por el Tracker para definir las tareas y tiempos asociados con cada iteración.
+     - **Iteraciones (Sprints):** Organizadas por el Tracker para dividir el desarrollo en bloques manejables.
 
-2. **Planificación Iterativa:**
-   - El Equipo de Desarrollo realiza una planificación de iteraciones.
-   - Se asignan tareas a los Programadores y Testers.
+### 2. **Designing (Diseño):**
+   - **Responsable:** Coach (David Averos)
+   - **Artefactos:**
+     - **Tarjetas CRC (Clase, Responsabilidad, Colaborador):** Colaboración de los Programadores (Becerra y Rafael CASTRO) para establecer las clases y sus interacciones.
+     - **Diagramas de Clase:** Creados por el Coach para visualizar la estructura y relaciones entre las clases.
+     - **Prototipos:** Desarrollados para tener una representación visual de la interfaz de usuario y el flujo de la aplicación.
 
-### Artefacto Resultante:
-- Planificación de Iteraciones
+### 3. **Coding (Codificación):**
+   - **Responsable:** Programadores - Ricardo Becerra y Rafael Castro
+   - **Artefactos:**
+     - **Integración de Código:** Realizada por los Programadores para ensamblar las piezas desarrolladas por separado.
+     - **Refactorización:** Continua mejora del código para mantenerlo limpio y eficiente.
+     - **Unidad de Pruebas:** Desarrolladas por los Programadores para asegurar el correcto funcionamiento de las partes individuales del sistema.
 
----
+### 4. **Testing (Pruebas):**
+   - **Responsable:** Tester (Gary Campaña)
+   - **Artefactos:**
+     - **Pruebas Unitarias y Funcionales:** Ejecutadas por el Tester para verificar el comportamiento correcto de las funciones y del sistema.
+     - **Corrección de Defectos:** Gary trabaja en corregir los problemas identificados durante las pruebas.
+     - **Aceptación de Pruebas:** Validación final realizada por Gary y el Cliente (Kevin CANO) para confirmar que el sistema cumple con los requisitos.
 
-## Fase 2: Diseño
+## Estructura de Carpetas
 
-### Roles:
-- Programador
-- Diseñador
+El proyecto está organizado en carpetas que representan cada fase del desarrollo, subdivididas por iteraciones. Esto permite visualizar la evolución de los artefactos a lo largo del tiempo.
 
-### Procesos:
-1. **Diseño Incremental:**
-   - El Programador y el Diseñador trabajan juntos para crear diseños incrementales.
-   - Se realizan revisiones constantes para mejorar la calidad del diseño.
+- **/planning:**
+  - Contiene las carpetas de iteraciones con las planificaciones respectivas.
 
-### Artefacto Resultante:
-- Diseños Incrementales
+- **/designing:**
+  - Cada iteración tiene sus carpetas con los artefactos de diseño correspondientes.
 
----
+- **/coding:**
+  - Las iteraciones contienen las secciones donde los Programadores trabajan en la codificación y las pruebas unitarias.
 
-## Fase 3: Codificación
+- **/testing:**
+  - Las iteraciones reflejan los procesos de prueba y corrección de defectos llevados a cabo por el Tester.
 
-### Roles:
-- Programador
-- Tester
-
-### Procesos:
-1. **Desarrollo de Funcionalidades:**
-   - Los Programadores implementan las funcionalidades según los diseños.
-   - Los Testers realizan pruebas unitarias.
-
-2. **Revisión de Código:**
-   - Sesiones de revisión de código entre los Programadores para garantizar la calidad.
-
-### Artefacto Resultante:
-- Código Implementado
-- Informe de Pruebas Unitarias
+Con esta estructura, se puede seguir la evolución del proyecto y los artefactos en cada fase y durante cada iteración, facilitando la gestión y la colaboración entre los diferentes roles del equipo.
 
 ---
 
-## Fase 4: Pruebas
-
-### Roles:
-- Tester
-- Programador
-
-### Procesos:
-1. **Pruebas de Integración:**
-   - Los Testers realizan pruebas de integración.
-   - Los Programadores corrigen errores identificados.
-
-2. **Pruebas de Aceptación del Cliente:**
-   - El Cliente y los Testers realizan pruebas de aceptación.
-   - Los Programadores ajustan el código según sea necesario.
-
-### Artefacto Resultante:
-- Informe de Pruebas de Integración
-- Informe de Pruebas de Aceptación del Cliente
-
----
-
-## Fase 5: Retroalimentación
-
-### Roles:
-- Cliente
-- Equipo de Desarrollo
-
-### Procesos:
-1. **Revisión de Iteración:**
-   - El Cliente y el Equipo de Desarrollo revisan el trabajo completado.
-   - Se recopilan comentarios y se planifican mejoras.
-
-2. **Mejora Continua:**
-   - Se realizan ajustes en los procesos según la retroalimentación recibida.
-
-### Artefacto Resultante:
-- Informe de Revisión de Iteración
-
----
-
-## Fase 6: Implementación
-
-### Roles:
-- Equipo de Desarrollo
-- Cliente
-
-### Procesos:
-1. **Despliegue:**
-   - Se implementa la versión final en el entorno de producción.
-   - El Cliente verifica la implementación.
-
-### Artefacto Resultante:
-- Sistema Desplegado
-
----
-
-Este workflow sigue los principios de eXtreme Programming (XP), fomentando la colaboración continua y la entrega incremental de software de alta calidad.
+*Este documento se mantendrá actualizado a medida que evoluciona el proyecto BeCode Gestor de Contraseñas.*

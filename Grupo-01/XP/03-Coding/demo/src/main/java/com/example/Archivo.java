@@ -23,7 +23,7 @@ public class Archivo {
         return lista;
     }
 
-    // Leer y muestrar por consola el contenido del archivo
+    // Leer y mostrar por consola el contenido del archivo
     public void leerArchivo() {
         try {
             File archivo = new File(rutaArchivo);

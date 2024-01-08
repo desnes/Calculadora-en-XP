@@ -1,6 +1,6 @@
 ---
 created: 2024-01-06T21:49:48.361Z
-updated: 2024-01-06T22:56:17.009Z
+updated: 2024-01-08T00:16:30.624Z
 assigned: Cliente
 progress: 0
 tags:

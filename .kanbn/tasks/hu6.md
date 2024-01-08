@@ -1,12 +1,13 @@
 ---
 created: 2024-01-06T23:00:08.320Z
-updated: 2024-01-06T23:00:08.315Z
+updated: 2024-01-08T00:32:08.710Z
 assigned: 'Rafael Castro, Ricardo Becerra'
-progress: 0
+progress: 1
 tags:
   - HU
-due: 2024-01-06T00:00:00.000Z
-started: 2024-01-06T00:00:00.000Z
+due: 2024-01-04T00:00:00.000Z
+started: 2024-01-04T00:00:00.000Z
+completed: 2024-01-06T00:00:00.000Z
 ---
 
 # HU6
@@ -15,7 +16,9 @@ Formato de almacenamiento
 
 ## Sub-tasks
 
-- [ ] Optimizar la accesibilidad y búsqueda de contraseñas almacenadas
+- [x] Optimizar la accesibilidad y búsqueda de contraseñas almacenadas
+- [x] Codificacion
+- [x] Testeo
 
 ## Comments
 

@@ -1,13 +1,13 @@
 ---
 created: 2024-01-06T22:58:22.764Z
-updated: 2024-01-06T22:58:22.759Z
+updated: 2024-01-08T00:32:03.011Z
 assigned: 'Rafael Castro, Ricardo Becerra '
-progress: 0
+progress: 1
 tags:
   - HU
-due: 2024-01-06T00:00:00.000Z
-started: 2024-01-06T00:00:00.000Z
-completed: 2024-01-06T00:00:00.000Z
+due: 2024-01-04T00:00:00.000Z
+started: 2024-01-04T00:00:00.000Z
+completed: 2024-01-04T00:00:00.000Z
 ---
 
 # HU1
@@ -16,7 +16,9 @@ Creacion de contraseñas
 
 ## Sub-tasks
 
-- [ ] Permitir a los usuarios generar y guardar nuevas contraseñas asociadas a sitios especificos
+- [x] Permitir a los usuarios generar y guardar nuevas contraseñas asociadas a sitios especificos
+- [x] Codificacion
+- [x] Testeo
 
 ## Comments
 

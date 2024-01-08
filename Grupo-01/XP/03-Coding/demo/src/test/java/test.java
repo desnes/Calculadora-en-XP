@@ -116,4 +116,49 @@ public class test {
         }
         return false;
     }
+    
+     //Iteracion 3
+    @Test
+    public void testDeletePassword() throws IOException{
+        // Ruta temporal para el archivo de prueba
+        String rutaArchivoPrueba = "src/test/java/contrasena_prueba.txt";
+
+        // Obtener la ruta absoluta del archivo de prueba
+        String rutaAbsoluta = Paths.get(rutaArchivoPrueba).toAbsolutePath().toString();
+
+        // Crear un gestor de contraseñas con el archivo de prueba
+        Archivo manager = new Archivo(rutaAbsoluta);
+
+         // Crear algunas contraseñas para el gestor (solo para propósitos de prueba)
+         Cuenta cuenta1 = new Cuenta("Sitio1", "Password1");
+         Cuenta cuenta2 = new Cuenta("Sitio2", "Password2");
+         Cuenta cuenta3 = new Cuenta("Sitio3", "Password3");
+         // Guardar las contraseñas en el archivo
+        manager.guardarArchivo(cuenta1);
+        manager.guardarArchivo(cuenta2);
+        manager.guardarArchivo(cuenta3);
+
+        // Eliminar la cuenta para el Sitio2
+        manager.eliminarCuenta("Sitio2");
+        manager.leerArchivo();
+        // Verificar que la cuenta se haya eliminado correctamente
+        assertFalse(contieneCuenta(rutaAbsoluta, "Sitio2"));
+
+        // Eliminar el archivo de prueba después de la prueba
+        File archivoPrueba = new File(rutaArchivoPrueba);
+        archivoPrueba.delete();
+    }
+     // Método para verificar si el archivo contiene una cuenta específica
+     private boolean contieneCuenta(String rutaArchivo, String sitioWeb) throws IOException {
+        try (BufferedReader br = new BufferedReader(new FileReader(rutaArchivo))) {
+            String linea;
+            while ((linea = br.readLine()) != null) {
+                String[] partes = linea.split(": ");
+                if (partes.length == 2 && partes[0].equalsIgnoreCase(sitioWeb)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

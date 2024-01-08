@@ -70,11 +70,11 @@
             <td>Actualización de Contraseñas</td>
             <td>0</td>
             <td>1</td>
-            <td>2</td>
+            <td>1</td>
             <td>0</td>
-            <td>2</td>
+            <td>1</td>
             <td>16</td>
-            <td><td->
+            <td></td>
             <td>X</td>
             <td></td>
             <td></td>
@@ -87,13 +87,13 @@
             <td>Borrado de Contraseñas</td>
             <td>0</td>
             <td>1</td>
-            <td>2</td>
+            <td>1</td>
             <td>0</td>
-            <td>2</td>
+            <td>1</td>
             <td>16</td>
             <td></td>
-            <td>X</td>
             <td></td>
+            <td>X</td>
             <td></td>
             <td>X</td>
             <td></td>
@@ -106,7 +106,7 @@
             <td>1</td>
             <td>1</td>
             <td>0</td>
-            <td>2</td>
+            <td>1</td>
             <td>16</td>
             <td></td>
             <td>X</td>
@@ -125,26 +125,9 @@
             <td>0</td>
             <td>1</td>
             <td>8</td>
-            <td>X</td>
-            <td></td>
             <td></td>
             <td></td>
             <td>X</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>US007</td>
-            <td>Seguridad</td>
-            <td>0</td>
-            <td>1</td>
-            <td>1</td>
-            <td>0</td>
-            <td>2</td>
-            <td>16</td>
-            <td></td>
-            <td>X</td>
-            <td></td>
             <td></td>
             <td>X</td>
             <td></td>
